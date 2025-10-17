@@ -25,6 +25,7 @@ def compute_route_matrix(api_key, origins, destinations):
         }
     },
     "travelMode": "DRIVE",
+    "routingPreference": "TRAFFIC_AWARE",
     "computeAlternativeRoutes": False,
     "routeModifiers": {
       "avoidTolls": False,
